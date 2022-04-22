@@ -21,12 +21,13 @@ nav{
     background: #fff;
     overflow: hidden;
     border: 2px solid black;
-    transition: 1s;
+    /* transition: 1s; */
 }
-nav:hover{
+/* nav:hover{
     width:20px;
     transition: 1s;
-}
+
+} */
 .logo{
     text-align: center;
     display: flex;
@@ -35,5 +36,54 @@ nav:hover{
 .logo img{
     width: 45px;
     height: 45px;
+    border-radius: 50%;
+}
+.logo span{
+    font-weight: bold;
+    padding-left: 18px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 10px;
     
+
+}
+a{
+    position: relative;
+    width: 280px;
+    font-size: 14px;
+    color:rgb(85,83,83);
+    display: table;
+    padding: 10px;
+    
+}
+
+nav.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top:20px;
+    text-align: center;
+
+}
+.nav-item{
+position: relative;
+top:12px;
+margin-left: 10px;
+
+}
+a:hover{
+    background: #eee;;
+  
+}
+a:hover i{
+    color:#34AF61;
+    transition: 0.5s;
+}
+ 
+.logout{
+    position: absolute;
+    bottom:0;
+}
+.container{
+    display: flex;
 }
